@@ -1,0 +1,347 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+body .imgbox img {
+  width: 100%;
+}
+
+#carefor {
+  padding: 40px 0;
+}
+#carefor .textbox h1 {
+  font-weight: 700;
+  font-size: 60px;
+  margin: 0 0 10px;
+}
+#carefor .textbox h4 {
+  color: #a8a8a8;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+#carefor .imgbox {
+  width: 500px;
+}
+
+#welcome {
+  padding: 40px 0;
+}
+#welcome .textbox {
+  padding: 80px;
+}
+#welcome .textbox h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+#welcome .textbox h3 {
+  color: #868686;
+  margin: 20px 0 40px;
+  font-size: 20px;
+}
+#welcome .textbox h2, #welcome .textbox h6 {
+  margin: 15px 0;
+}
+#welcome .textbox h2 {
+  font-size: 33px;
+}
+#welcome .textbox h6 {
+  font-size: 18px;
+}
+#welcome .textbox .btn {
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #85b49a;
+  color: #fff;
+}
+#welcome .wid {
+  width: 580px;
+  padding: 0;
+}
+@media (max-width: 768px) {
+  #welcome .imgbox {
+    margin-top: 50px;
+  }
+  #welcome .textbox {
+    padding: 20px 0;
+  }
+}
+@media (min-width: 768px) {
+  #welcome .textbox {
+    margin-top: -80px;
+  }
+}
+
+#aboutus {
+  padding: 40px 0;
+}
+#aboutus .textbox {
+  padding: 0 100px;
+}
+#aboutus .textbox h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#aboutus .textbox h3, #aboutus .textbox p {
+  color: #b9b5b5;
+  font-weight: 100;
+  font-size: 20px;
+  margin: 20px 0 0;
+  line-height: 1.6;
+}
+#aboutus .textbox p {
+  font-size: 18px;
+  color: #877f7f;
+  line-height: 1.4;
+}
+#aboutus .textbox li {
+  display: flex;
+  padding: 20px 0 0 0;
+}
+#aboutus .textbox .icon {
+  padding: 0 15px 0 0;
+  color: #79a6a0;
+}
+#aboutus .textbox h4 {
+  color: #877f7f;
+  font-size: 20px;
+}
+#aboutus .imgbox {
+  width: 450px;
+}
+@media (max-width: 992px) {
+  #aboutus .textbox {
+    padding: 0;
+  }
+}
+@media (max-width: 768px) {
+  #aboutus .textbox {
+    padding: 25px;
+  }
+}
+
+#ourtrainers {
+  padding: 40px 0;
+}
+#ourtrainers .wid {
+  width: 580px;
+}
+#ourtrainers h1 {
+  font-weight: 700;
+  font-size: 38px;
+}
+#ourtrainers h3, #ourtrainers h4 {
+  font-weight: 300;
+  color: #696565;
+  font-size: 20px;
+  margin: 20px 0;
+  line-height: 1.4;
+}
+#ourtrainers .box {
+  margin: 0 5px;
+}
+#ourtrainers .box .textbox {
+  padding: 15px;
+}
+#ourtrainers .box .textbox h2 {
+  font-weight: 300;
+  font-size: 25px;
+  padding: 20px 0 0;
+}
+#ourtrainers .box .textbox ul {
+  display: flex;
+  flex-direction: row;
+}
+#ourtrainers .box .textbox ul li {
+  margin: 0 10px;
+  background-color: #d4cece;
+  border-radius: 50%;
+  padding: 20px;
+  width: 10px;
+  height: 10px;
+}
+#ourtrainers .box .textbox ul li .icon {
+  margin: -7px;
+}
+
+#pricingtable {
+  padding: 40px 0;
+}
+#pricingtable .textbox {
+  width: 580px;
+  text-align: center;
+}
+#pricingtable .textbox h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#pricingtable .textbox h5 {
+  color: #685f5f;
+  font-weight: 200;
+  font-size: 20px;
+  margin: 20px 0 50px;
+}
+#pricingtable .box {
+  width: 340px;
+  color: white;
+  background-color: #849f99;
+  padding: 50px 30px;
+  text-align: center;
+}
+#pricingtable .box h2 {
+  font-size: 25px;
+}
+#pricingtable .box h3 {
+  font-size: 30px;
+  margin: 20px 0 0;
+}
+#pricingtable .box li {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0 0;
+}
+#pricingtable .box li h4 {
+  font-size: 18px;
+  margin: 0 0 0 10px;
+}
+#pricingtable .box .btn {
+  padding: 10px 35px;
+  margin: 30px 0 0;
+  border-radius: 30px;
+  background-color: #545956;
+  color: #fff;
+}
+#pricingtable .PREMIUM-color {
+  background-color: #373c3b;
+}
+#pricingtable .PREMIUM-color .btn {
+  background-color: #849f99;
+}
+
+#questions {
+  padding: 40px 0;
+}
+#questions .wid {
+  width: 580px;
+}
+#questions h1 {
+  font-weight: 700;
+  font-size: 36px;
+  margin: 15px 0;
+}
+#questions h3 {
+  font-size: 20px;
+  margin: 0 0 40px;
+  line-height: 1.4;
+}
+#questions .textbox {
+  padding: 0 70px;
+}
+#questions .textbox h2, #questions .textbox h4 {
+  font-size: 25px;
+  margin: 0 0 0 10px;
+  color: #6c6969;
+}
+#questions .textbox .minibox {
+  margin: 20px 0 0 0;
+}
+#questions .textbox .minibox h2 {
+  margin: 0 0 0 10px;
+}
+#questions .textbox p {
+  font-size: 20px;
+  margin: 30px 0 0 32px;
+  color: #9f9898;
+}
+#questions .textbox li {
+  margin: 30px 0 0;
+  display: flex;
+}
+#questions .icon {
+  color: #c7bdbd;
+}
+#questions .icon i {
+  font-size: 22px;
+}
+#questions .bigicon i {
+  font-size: 30px;
+}
+@media (max-width: 992px) {
+  #questions .textbox {
+    padding: 0;
+  }
+}
+@media (max-width: 768px) {
+  #questions .textbox {
+    margin-bottom: 20px;
+  }
+}
+
+#doggerblog {
+  padding: 40px 0;
+}
+#doggerblog .wid {
+  width: 580px;
+}
+#doggerblog h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#doggerblog h3 {
+  font-size: 20px;
+  margin: 30px 0 60px;
+}
+#doggerblog .box {
+  display: flex;
+}
+#doggerblog .textbox {
+  margin: 0 0 0 20px;
+}
+#doggerblog .textbox h2 {
+  font-size: 22px;
+}
+#doggerblog .textbox h4 {
+  color: #ab9f9f;
+  font-size: 18px;
+}
+#doggerblog .textbox p {
+  color: #ab9f9f;
+  font-size: 18px;
+}
+#doggerblog .textbox p, #doggerblog .textbox h4 {
+  margin: 20px 0 0;
+}
+@media (max-width: 768px) {
+  #doggerblog .box {
+    margin-bottom: 20px;
+  }
+}
+
+#ourservices {
+  padding: 40px 0;
+}
+#ourservices .wid {
+  width: 580px;
+}
+#ourservices h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#ourservices h3 {
+  color: #554f4f;
+  font-size: 20px;
+  margin: 30px 0;
+}
+#ourservices .textbox {
+  padding: 30px 40px;
+}
+#ourservices .textbox h2 {
+  font-size: 25px;
+  color: #554f4f;
+  margin: 20px 0 0;
+}
+#ourservices .textbox h3 {
+  margin: 30px 0 0;
+}
+#ourservices .textbox .icon {
+  font-size: 60px;
+}/*# sourceMappingURL=style.css.map */
